@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Operacao {
+public interface Operacao {
+
+	float calcular(float distancia, float tarifaBase);
 }
